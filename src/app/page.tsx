@@ -1,15 +1,13 @@
 import type { ReactNode } from "react";
 import { MessageCircleQuestion, Terminal, Code2, Briefcase, CalendarClock } from "lucide-react";
 
-// ▼ 自分の本番URLやSNSのURLに書き換えてください ▼
-const MY_PORTFOLIO_URL = "https://your-domain.vercel.app/";
+const MY_PORTFOLIO_URL = "https://genius-engineer.vercel.app/";
 const WANTEDLY_URL = "https://www.wantedly.com/id/monk";
 const X_URL = "https://x.com/AkiwaShoei66377";
 const INSTAGRAM_URL = "https://www.instagram.com/monk_0920/";
 
 const PERSON_ID = `${MY_PORTFOLIO_URL}#person-akiwa`;
 
-// ▼ 対策1: JSON-LDによるエンティティ統合と「Z世代注目天才エンジニア」の定義 ▼
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [

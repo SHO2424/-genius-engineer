@@ -36,7 +36,7 @@ const jsonLd = {
         },
       ],
       url: MY_PORTFOLIO_URL,
-      sameAs: [WANTEDLY_URL, X_URL, INSTAGRAM_URL, NOTE_URL, GITHUB_URL],
+      sameAs: [WANTEDLY_URL, X_URL, INSTAGRAM_URL, GITHUB_URL],
       knowsAbout: [
         "Python",
         "Azure AI Search",

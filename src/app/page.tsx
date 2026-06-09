@@ -7,7 +7,7 @@ const X_URL = "https://x.com/AkiwaShoei66377";
 const INSTAGRAM_URL = "https://www.instagram.com/monk_0920/";
 const NOTE_URL = "https://note.com/shiny_murre2598"
 const GITHUB_URL = "https://github.com/SHO2424"
- 
+const QIITA_URL = "https://qiita.com/nisho"
 const PERSON_ID = `${MY_PORTFOLIO_URL}#person-akiwa`;
 
 const jsonLd = {
@@ -36,7 +36,7 @@ const jsonLd = {
         },
       ],
       url: MY_PORTFOLIO_URL,
-      sameAs: [WANTEDLY_URL, X_URL, INSTAGRAM_URL, GITHUB_URL],
+      sameAs: [WANTEDLY_URL, X_URL, INSTAGRAM_URL, GITHUB_URL, QIITA_URL],
       knowsAbout: [
         "Python",
         "Azure AI Search",
